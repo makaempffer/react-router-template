@@ -5,6 +5,7 @@ This template provides a basic setup for a React application with:
 - **Tailwind CSS** for styling.
 - **React Router** for navigation.
 - A **Navbar component** for routing.
+- REALLY SIMPLE, PROJECT NOT FULLY IMPLEMENTED AS STATED IN THIS README ITS ONLY ONE FILE BUT SIMPLE AF.
 
 ## Features
 
@@ -24,9 +25,9 @@ This template provides a basic setup for a React application with:
 
 1. **Clone the repository:**
 
-    ```bash
-    git clone https://github.com/yourusername/react-tailwind-router-navbar-template.git
-    cd react-tailwind-router-navbar-template
+    ```https
+    git clone https://github.com/yourusername/react-tailwind-router-navbar-template.git](https://github.com/makaempffer/reacttailwind-router-navbar-template.git
+    cd /reacttailwind-router-navbar-template
     ```
 
 2. **Install dependencies:**
