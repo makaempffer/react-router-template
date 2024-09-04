@@ -11,7 +11,7 @@ This template provides a basic setup for a React application with:
 
 - **React**: A JavaScript library for building user interfaces.
 - **Tailwind CSS**: A utility-first CSS framework for rapid UI development.
-- **React Router**: Declarative routing for React.js.
+- **React Router**: Declarative routing for React.js (react-router-dom).
 - **Navbar Component**: A responsive navigation bar with routing capabilities.
 
 ## Getting Started
