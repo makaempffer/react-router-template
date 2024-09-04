@@ -131,4 +131,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ---
 
-**Note:** Replace `https://github.com/yourusername/react-tailwind-router-navbar-template.git` with your actual repository URL.
+**Note:** Replace `https://github.com/makaempffer/react-router-template.git` with your actual repository URL.
