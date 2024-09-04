@@ -22,7 +22,10 @@ This template provides a basic setup for a React application with:
 - npm or Yarn
 
 ## Views:
+### Desktop View
 ![Desktop View](https://github.com/makaempffer/react-router-template/blob/main/desktop-view.png)
+
+### Mobile View
 ![Desktop View](https://github.com/makaempffer/react-router-template/blob/main/mobile-view.png)
 
 
