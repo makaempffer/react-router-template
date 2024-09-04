@@ -21,6 +21,12 @@ This template provides a basic setup for a React application with:
 - Node.js (v14.x or higher)
 - npm or Yarn
 
+## Views:
+![Desktop View](https://github.com/makaempffer/react-router-template/blob/main/desktop-view.png)
+![Desktop View](https://github.com/makaempffer/react-router-template/blob/main/mobile-view.png)
+
+
+
 ### Installation
 
 1. **Clone the repository:**
