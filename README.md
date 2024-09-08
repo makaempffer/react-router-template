@@ -1,134 +1,70 @@
-# React Tailwind Router Navbar Template
+# Getting Started with Create React App
 
-This template provides a basic setup for a React application with:
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-- **Tailwind CSS** for styling.
-- **React Router** for navigation.
-- A **Navbar component** for routing.
-- REALLY SIMPLE, PROJECT NOT FULLY IMPLEMENTED AS STATED IN THIS README ITS ONLY ONE FILE BUT SIMPLE AF.
+## Available Scripts
 
-## Features
+In the project directory, you can run:
 
-- **React**: A JavaScript library for building user interfaces.
-- **Tailwind CSS**: A utility-first CSS framework for rapid UI development.
-- **React Router**: Declarative routing for React.js (react-router-dom).
-- **Navbar Component**: A responsive navigation bar with routing capabilities.
+### `npm start`
 
-## Getting Started
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-### Prerequisites
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-- Node.js (v14.x or higher)
-- npm or Yarn
+### `npm test`
 
-## Views:
-### Desktop View
-![Desktop View](https://github.com/makaempffer/react-router-template/blob/main/desktop-view.png)
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### Mobile View
-![Desktop View](https://github.com/makaempffer/react-router-template/blob/main/mobile-view.png)
+### `npm run build`
 
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-### Installation
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-1. **Clone the repository:**
+### `npm run eject`
 
-    ```https
-    git clone https://github.com/yourusername/react-tailwind-router-navbar-template.git](https://github.com/makaempffer/reacttailwind-router-navbar-template.git
-    cd /reacttailwind-router-navbar-template
-    ```
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-2. **Install dependencies:**
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-    ```bash
-    npm install
-    # or
-    yarn install
-    ```
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-3. **Run the development server:**
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-    ```bash
-    npm start
-    # or
-    yarn start
-    ```
+## Learn More
 
-   Navigate to `http://localhost:3000` in your browser to view the application.
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-## Project Structure
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-- `src/`
-  - `components/`: Contains reusable components, including the Navbar.
-  - `pages/`: Contains page components for different routes.
-  - `App.js`: Main application component with routing setup.
-  - `index.js`: Entry point of the React application.
-- `public/`: Static assets.
-- `tailwind.config.js`: Tailwind CSS configuration.
-- `postcss.config.js`: PostCSS configuration.
-- `package.json`: Project dependencies and scripts.
+### Code Splitting
 
-## Usage
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Adding a New Route
+### Analyzing the Bundle Size
 
-1. **Create a new page component:**
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-   Create a file in the `src/pages/` directory, e.g., `About.js`:
+### Making a Progressive Web App
 
-    ```jsx
-    // src/pages/About.js
-    import React from 'react';
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-    const About = () => {
-      return <div>About Us</div>;
-    };
+### Advanced Configuration
 
-    export default About;
-    ```
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-2. **Add the route to `App.js`:**
+### Deployment
 
-    ```jsx
-    // src/App.js
-    import React from 'react';
-    import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-    import Navbar from './components/Navbar';
-    import Home from './pages/Home';
-    import About from './pages/About';
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-    const App = () => {
-      return (
-        <Router>
-          <Navbar />
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/about" element={<About />} />
-          </Routes>
-        </Router>
-      );
-    };
+### `npm run build` fails to minify
 
-    export default App;
-    ```
-
-### Customizing the Navbar
-
-The Navbar component is located in `src/components/Navbar.js`. Customize the links and styling as needed.
-
-## Styling
-
-Tailwind CSS classes are used throughout the project. Customize styles by editing `tailwind.config.js`.
-
-## Contributing
-
-Feel free to open issues or submit pull requests. For major changes, open an issue first to discuss your proposed changes.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
-
-**Note:** Replace `https://github.com/makaempffer/react-router-template.git` with your actual repository URL.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
